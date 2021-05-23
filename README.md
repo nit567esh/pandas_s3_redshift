@@ -42,8 +42,8 @@ s3_auth=(accesskey, secretkey, bucket)
 
 # Step 2: Use rs_create, rs_append or rs_upsert
 rs_create(redshift_auth, sql_ddl)
-rs_append(data, redshift_auth, s3_auth, schema=None, table=None)
-rs_upsert(data, redshift_auth, s3_auth, schema=None, table=None, upsertkey=('cols',....))
+rs_append(dataframe, redshift_auth, s3_auth, schema, table)
+rs_upsert(dataframe, redshift_auth, s3_auth, schema, table, upsertkey=('cols',....))
 ```
 
 ##### Notes
