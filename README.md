@@ -31,7 +31,7 @@ Usage
 -----
 
 You’ll have available 3 functions fro different kind of operations:
-`1. rs_create` - You can create a table from scratch from python and upload the contents of the data frame.
+`1. rs_create` - You can create a table from scratch from python and upload the contents of the dataframe.
 `2. rs_append` - You can insert/append the contents of the pandas data frame into existing redshift table.
 `3. rs_upsert` - You can insert and update the existing redshift table using contents of the pandas data frame.
 
